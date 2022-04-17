@@ -3,7 +3,11 @@ def print_button(name):
     print(f'{name}')
 
 
+def welcome():
+    print('New Screen')
+
+
 if __name__ == '__main__':
-    print_button('Click')
+    welcome()
 
 
